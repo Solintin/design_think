@@ -6,7 +6,7 @@
         <div>
           <img src="@/assets/Svg/talent.svg" alt="" />
         </div>
-        <div class="mt-10 animate__animated animate__fadeInRight">
+        <div v-vue-aos.once="{animationClass:'twisterInDown animated'}" class="mt-10">
           <h1 class="font-semibold text-3xl md:text-5xl">Talent Acquisition</h1>
           <p class="mt-6">
             We have deep expertise in attracting, identifying and hiring
