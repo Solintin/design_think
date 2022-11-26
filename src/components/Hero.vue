@@ -52,7 +52,7 @@
     <div class="max-w-[1085px] space-y-4 mt-20 mb-14">
       <h1 class="text-[#6941C6] font-semibold">Building Uniquness</h1>
       <h1 class="font-semibold text-2xl md:text-4xl">A 360° Approach</h1>
-      <p class="text-[#667085] text-xl md:text-2xl">
+      <p class="text-[#667085] text-base md:text-2xl">
         At DesignThink, we are experts at building and scaling high-performing
         teams with expertise ranging from early-stage + high-growth startups to
         international development organizations and multilateral organizations
