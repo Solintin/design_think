@@ -1,0 +1,83 @@
+<!-- eslint-disable -->
+<template>
+  <div class="max-w-[1440px] px-8 container mx-auto">
+    <div class="grid grid-cols-2 gap-40 mt-14">
+      <div class="space-y-8">
+        <div
+          class="flex items-center space-x-1 pill py-1 px-2 max-w-max text-[#6941C6] text-sm font-medium"
+        >
+          <div class="bg-white py-1 px-2 rounded-xl">New</div>
+          <h1>Explore our unique 360 approach</h1>
+          <img src="@/assets/Svg/arrow.svg" alt="" />
+        </div>
+        <div class="max-w-xl font-bold lg:text-6xl space-y-3">
+          <div class="text-[#101828]">Helping African</div>
+          <div class="text-[#101828]">Startups Build</div>
+          <div>
+            <span class="text-[#00BEE3] mr-2">Resilient</span>
+            <span class="text-[#FF9E56]">Teams</span>
+          </div>
+        </div>
+        <div class="max-w-lg my-6">
+          We are a human resources consulting and advisory firm providing
+          integrated and strategic services related to the employee lifecycle
+          from hire to retire, and everything in between.
+        </div>
+        <div class="flex space-x-4">
+          <button
+            class="bg-dt_core text-white px-4 py-3 font-medium button rounded-md"
+          >
+            Work with us
+          </button>
+          <button
+            class="text-[#344054] px-4 py-3 flex justify-center space-x-2 font-medium learn rounded-md"
+          >
+            <img src="@/assets/Svg/play.svg" alt="play" />
+            <span>Learn More</span>
+          </button>
+        </div>
+      </div>
+
+      <div class="<div grid grid-cols-2 gap-8">
+        <img src="@/assets/Svg/guy.svg" alt="" />
+        <img src="@/assets/Svg/lady.svg" alt="" />
+        <img src="@/assets/Svg/woman.svg" alt="" />
+        <img src="@/assets/Svg/man.svg" alt="" />
+      </div>
+    </div>
+    <div class="max-w-[1085px] space-y-4 mt-20 mb-14">
+      <h1 class="text-[#6941C6] font-semibold">Building Uniquness</h1>
+      <h1 class="font-semibold text-4xl">A 360° Approach</h1>
+      <p class="text-[#667085] text-2xl">
+        At DesignThink, we are experts at building and scaling high-performing
+        teams with expertise ranging from early-stage + high-growth startups to
+        international development organizations and multilateral organizations
+      </p>
+    </div>
+  </div>
+</template>
+<!-- eslint-disable -->
+
+<script>
+export default {};
+</script>
+
+<style>
+.pill {
+  background: #f9f5ff;
+  mix-blend-mode: multiply;
+  border-radius: 16px;
+}
+.button {
+  border: 1px solid #00bee3;
+
+  box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
+  border-radius: 8px;
+}
+.learn {
+  background: #ffffff;
+  border: 1px solid #d0d5dd;
+  box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
+  border-radius: 8px;
+}
+</style>

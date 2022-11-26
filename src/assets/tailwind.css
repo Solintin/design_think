@@ -1,0 +1,28 @@
+@tailwind base;
+
+@tailwind components;
+
+@tailwind utilities;
+
+.lv-input__group .lv-input__field{
+  color: #000 !important;
+  background: #ecd0e9 !important;
+  padding: 4px 16px !important;
+  border: 1px solid #db44c9 !important;
+}
+.ui.selection.dropdown {
+  color: #000 !important;
+  background: #ecd0e9 !important;
+  padding: 19px 16px !important;
+  border: 1px solid #db44c9 !important;
+}
+.ui.search.dropdown > input.search {
+  top: 8px !important;
+}
+.ui.selection.dropdown>.dropdown.icon {
+  top: auto !important;
+}
+.ui.search.dropdown>.text{
+  color: #777 !important;
+  font-size: 16px !important;
+}
