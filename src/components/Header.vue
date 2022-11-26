@@ -2,11 +2,17 @@
 <template>
   <div>
     <header
-      class="max-w-[1440px] px-8 container mx-auto text-[#667085] flex justify-between py-4 lg:py-6  w-full"
+      class="max-w-[1440px] md:px-8 px-4 container mx-auto text-[#667085] flex justify-between py-4 lg:py-6 w-full"
     >
       <div class="">
         <a href="/">
-          <a href="#"> <img src="@/assets/Svg/logo.svg" alt="" class="md:w-full  md:h-full h-10 w-24 " /> </a>
+          <a href="#">
+            <img
+              src="@/assets/Svg/logo.svg"
+              alt=""
+              class="md:w-full md:h-full h-10 w-24"
+            />
+          </a>
         </a>
       </div>
       <div class="md:flex hidden space-x-4 items-center font-medium">

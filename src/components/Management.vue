@@ -1,7 +1,7 @@
 <!-- eslint-disable -->
 <template>
   <div class="py-[60px]">
-    <div class="max-w-[1440px] px-8 container mx-auto">
+    <div class="max-w-[1440px] md:px-8 px-4 container mx-auto">
       <div
         class="grid md:grid-cols-2 place-items-center md:gap-40 gap-10 mt-10"
       >

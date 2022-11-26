@@ -1,7 +1,7 @@
 <!-- eslint-disable -->
 <template>
   <div class="bg pt-[60px]">
-    <div class="max-w-[1440px] px-8 container mx-auto">
+    <div class="max-w-[1440px] md:px-8 px-4 container mx-auto">
       <div class="grid md:grid-cols-2 md:gap-40 gap-10 mt-14">
         <div>
           <img src="@/assets/Svg/talent.svg" alt="" />
