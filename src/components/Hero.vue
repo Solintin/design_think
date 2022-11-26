@@ -4,7 +4,7 @@
     <div class="grid md:grid-cols-2 md:gap-40 gap-10 mt-14">
       <div class="space-y-8 animate__animated animate__fadeInLeft">
         <div
-          class="flex items-center mx-auto mx:mx-0 space-x-1 pill md:text-base text-xs py-1 px-2 max-w-max text-[#6941C6]  font-medium"
+          class="flex items-center mx-auto md:mx-0 space-x-1 pill md:text-base text-xs py-1 px-2 max-w-max text-[#6941C6]  font-medium"
         >
           <div class="bg-white py-1 px-2 rounded-xl">New</div>
           <h1 class="mr-1">Explore our unique 360 approach</h1>
