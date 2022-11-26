@@ -1,7 +1,7 @@
 <!-- eslint-disable -->
 <template>
   <div class="max-w-[1440px] px-8 container mx-auto">
-    <div class="grid grid-cols-2 gap-40 mt-14">
+    <div class="grid md:grid-cols-2 md:gap-40 gap-10 mt-14">
       <div class="space-y-8">
         <div
           class="flex items-center space-x-1 pill py-1 px-2 max-w-max text-[#6941C6] text-sm font-medium"
@@ -10,7 +10,7 @@
           <h1>Explore our unique 360 approach</h1>
           <img src="@/assets/Svg/arrow.svg" alt="" />
         </div>
-        <div class="max-w-xl font-bold lg:text-6xl space-y-3">
+        <div class="md:max-w-xl md:mx-0 mx-auto font-bold lg:text-6xl text-3xl text-center md:text-left space-y-3">
           <div class="text-[#101828]">Helping African</div>
           <div class="text-[#101828]">Startups Build</div>
           <div>
@@ -18,7 +18,7 @@
             <span class="text-[#FF9E56]">Teams</span>
           </div>
         </div>
-        <div class="max-w-lg my-6">
+        <div class="max-w-lg my-6 text-center md:text-left">
           We are a human resources consulting and advisory firm providing
           integrated and strategic services related to the employee lifecycle
           from hire to retire, and everything in between.
@@ -38,7 +38,7 @@
         </div>
       </div>
 
-      <div class="<div grid grid-cols-2 gap-8">
+      <div class="grid  grid-cols-2 gap-8">
         <img src="@/assets/Svg/guy.svg" alt="" />
         <img src="@/assets/Svg/lady.svg" alt="" />
         <img src="@/assets/Svg/woman.svg" alt="" />
@@ -47,8 +47,8 @@
     </div>
     <div class="max-w-[1085px] space-y-4 mt-20 mb-14">
       <h1 class="text-[#6941C6] font-semibold">Building Uniquness</h1>
-      <h1 class="font-semibold text-4xl">A 360° Approach</h1>
-      <p class="text-[#667085] text-2xl">
+      <h1 class="font-semibold text-2xl md:text-4xl">A 360° Approach</h1>
+      <p class="text-[#667085] text-xl md:text-2xl">
         At DesignThink, we are experts at building and scaling high-performing
         teams with expertise ranging from early-stage + high-growth startups to
         international development organizations and multilateral organizations

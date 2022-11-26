@@ -2,9 +2,11 @@
 <template>
   <div class="py-[60px]">
     <div class="max-w-[1440px] px-8 container mx-auto">
-      <div class="grid grid-cols-2 gap-40 mt-10">
+      <div
+        class="grid md:grid-cols-2 place-items-center md:gap-40 gap-10 mt-10"
+      >
         <div class="">
-          <h1 class="font-semibold text-5xl">Talent Management</h1>
+          <h1 class="font-semibold text-3xl md:text-5xl">Talent Management</h1>
           <p class="mt-6">
             We create strategies for developing and promoting a strong internal
             organizational culture leading to inspired and engaged teams.
@@ -24,7 +26,7 @@
             </div>
           </div>
         </div>
-        <div>
+        <div class="md:order-last order-first">
           <img src="@/assets/Svg/talent_management.svg" alt="" />
         </div>
       </div>

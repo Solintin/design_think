@@ -2,9 +2,9 @@
 <template>
   <div class="bg-white py-[60px]">
     <div class="max-w-[1440px] px-8 container mx-auto">
-      <div class="grid grid-cols-2 items-center gap-40 mt-14">
+      <div class="grid md:grid-cols-2 items-center md:gap-40 gap-10 mt-14">
         <div class="">
-          <h1 class="font-semibold text-5xl">HR Policies & Processes</h1>
+          <h1 class="font-semibold text-3xl md:text-5xl">HR Policies & Processes</h1>
           <p class="mt-6">
             We work with you to create policies and processes which govern how
             issues should be handled within an organization, ensuring people
@@ -25,7 +25,7 @@
             </div>
           </div>
         </div>
-        <div>
+        <div class="md:order-last order-first">
           <img src="@/assets/Svg/hr.svg" alt="" />
         </div>
       </div>

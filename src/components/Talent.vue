@@ -2,12 +2,12 @@
 <template>
   <div class="bg pt-[60px]">
     <div class="max-w-[1440px] px-8 container mx-auto">
-      <div class="grid grid-cols-2 gap-40 mt-14">
+      <div class="grid md:grid-cols-2 md:gap-40 gap-10 mt-14">
         <div>
           <img src="@/assets/Svg/talent.svg" alt="" />
         </div>
         <div class="mt-10">
-          <h1 class="font-semibold text-5xl">Talent Acquisition</h1>
+          <h1 class="font-semibold text-3xl md:text-5xl">Talent Acquisition</h1>
           <p class="mt-6">
             We have deep expertise in attracting, identifying and hiring
             candidates for technical and non-technical roles at every stage of
