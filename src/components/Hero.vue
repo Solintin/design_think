@@ -4,7 +4,7 @@
     <div class="grid md:grid-cols-2 md:gap-40 gap-10 mt-14">
       <div class="space-y-8 animate__animated animate__fadeInLeft">
         <div
-          class="flex items-center space-x-1 pill md:text-base text-xs py-1 px-2 max-w-max text-[#6941C6]  font-medium"
+          class="flex items-center mx-auto mx:mx-0 space-x-1 pill md:text-base text-xs py-1 px-2 max-w-max text-[#6941C6]  font-medium"
         >
           <div class="bg-white py-1 px-2 rounded-xl">New</div>
           <h1 class="mr-1">Explore our unique 360 approach</h1>
@@ -25,7 +25,7 @@
           integrated and strategic services related to the employee lifecycle
           from hire to retire, and everything in between.
         </div>
-        <div class="flex space-x-4">
+        <div class="flex md:justify-start justify-center flex space-x-4">
           <button
             class="bg-dt_core text-white px-3 md:px-4 py-2 md:py-3 md:text-base text-xs font-medium button rounded-md"
           >
