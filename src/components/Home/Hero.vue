@@ -13,8 +13,8 @@
         <div
           class="md:max-w-xl md:mx-0 mx-auto font-bold lg:text-6xl text-3xl text-center md:text-left space-y-3"
         >
-          <div class="text-[#101828]">Helping African</div>
-          <div class="text-[#101828]">Startups Build</div>
+          <div class="text-[#101828]">Helping Emerging</div>
+          <div class="text-[#101828]">Markets Startups Build</div>
           <div>
             <span class="text-[#00BEE3] mr-2">Resilient</span>
             <span class="text-[#FF9E56]">Teams</span>
@@ -51,7 +51,7 @@
       </div>
     </div>
     <div class="max-w-[1085px] space-y-4 mt-20 mb-14">
-      <h1 class="text-[#6941C6] font-semibold">Building Uniquness</h1>
+      <h1 class="text-[#6941C6] font-semibold">Building Uniqueness</h1>
       <h1 class="font-semibold text-2xl md:text-4xl">A 360° Approach</h1>
       <p class="text-[#667085] text-base md:text-2xl">
         At DesignThink, we are experts at building and scaling high-performing
