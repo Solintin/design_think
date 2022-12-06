@@ -15,13 +15,13 @@
 <!-- eslint-disable -->
 
 <script>
-import Header from "../components/Header.vue";
-import Hero from "../components/Hero.vue";
-import Talent from "../components/Talent.vue";
-import Benefit from "../components/Benefit.vue";
-import HR from "../components/HR.vue";
-import Management from "../components/Management.vue";
-import Footer from "../components/Footer.vue";
+import Header from "../components/Home/Header.vue";
+import Hero from "../components/Home/Hero.vue";
+import Talent from "../components/Home/Talent.vue";
+import Benefit from "../components/Home/Benefit.vue";
+import HR from "../components/Home/HR.vue";
+import Management from "../components/Home/Management.vue";
+import Footer from "../components/Home/Footer.vue";
 export default {
   components: { Header, Hero, Talent, Benefit, HR, Management, Footer },
 };
@@ -29,6 +29,6 @@ export default {
 
 <style scoped>
 .hero {
-  background-image: url("/assets/Svg/logo.svg");
+  background-image: url("~@/assets/Svg/bg.svg");
 }
 </style>

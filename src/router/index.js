@@ -1,8 +1,8 @@
+/* eslint-disable */
 import Vue from "vue";
 import VueRouter from "vue-router";
 import Home from "@/views";
-
-
+import About from "@/views/about/";
 
 Vue.use(VueRouter);
 
@@ -11,6 +11,11 @@ const routes = [
     path: "/",
     name: "Home",
     component: Home,
+  },
+  {
+    path: "/about",
+    name: "About",
+    component: About,
   },
   ];
 
