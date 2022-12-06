@@ -28,7 +28,7 @@
           </div>
         </div>
         <div class="md:order-last order-first">
-          <img src="@/assets/Svg/hr.svg" alt="" />
+          <img src="@/assets/Svg/hr.png" alt="" />
         </div>
       </div>
     </div>

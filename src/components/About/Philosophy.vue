@@ -25,7 +25,7 @@
         </div>
         <div class="flex justify-end">
             <img
-            src="@/assets/Svg/philosophy.svg"
+            src="@/assets/Svg/philosophy.png"
             alt="hero_image"
             class="rounded-md h-full"
           />

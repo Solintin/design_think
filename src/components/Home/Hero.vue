@@ -44,10 +44,10 @@
       <div
         class="grid grid-cols-2 gap-8 animate__animated animate__fadeInRight animate__delay-1s"
       >
-        <img src="@/assets/Svg/guy.svg" alt="" />
-        <img src="@/assets/Svg/lady.svg" alt="" />
-        <img src="@/assets/Svg/woman.svg" alt="" />
-        <img src="@/assets/Svg/man.svg" alt="" />
+        <img src="@/assets/Svg/guy.png" alt="" />
+        <img src="@/assets/Svg/lady.png" alt="" />
+        <img src="@/assets/Svg/woman.png" alt="" />
+        <img src="@/assets/Svg/man.png" alt="" />
       </div>
     </div>
     <div class="max-w-[1085px] space-y-4 mt-20 mb-14">

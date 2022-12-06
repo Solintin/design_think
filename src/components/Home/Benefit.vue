@@ -4,7 +4,7 @@
     <div class="max-w-[1440px] md:px-8 px-4 container mx-auto">
       <div class="grid md:grid-cols-2 md:gap-40 gap-10 items-center mt-14">
         <div>
-          <img src="@/assets/Svg/benefit.svg" alt="" />
+          <img src="@/assets/Svg/benefit.png" alt="" />
         </div>
         <div class="mt-10">
           <h1 class="font-semibold text-3xl md:text-5xl">
