@@ -1,12 +1,12 @@
 <!-- eslint-disable -->
 <template>
   <div class="bg-[#EFEBFF] py-24 md:px-10 px-4">
-    <div class="max-w-[1440px] md:px-8 px-4 container mx-auto">
-      <div class="rounded-[20px] md:px-[100px] px-5 bg-white py-10">
+    <div class="max-w-[1440px] md:px-8  container mx-auto">
+      <div class="rounded-[20px] md:px-[100px] px-4 bg-white py-10">
         <h1 class="font-bold text-3xl mb-16 text-[#060C3C] text-center">
           Our Values
         </h1>
-        <div class="grid md:grid-cols-2 gap-10">
+        <div class="grid md:grid-cols-2 gap-10 ">
           <div class="grid grid-cols-12 gap-10 items-stretch">
             <div class="w-8 col-span-1">
               <img src="@/assets/Svg/agility.svg" class="-mt-1" alt="" />

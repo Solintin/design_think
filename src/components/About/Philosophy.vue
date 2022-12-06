@@ -4,7 +4,7 @@
     <div class="max-w-[1440px]   container mx-auto">
       <div class="grid md:grid-cols-2 gap-10 items-center pt-10">
         <div class="space-y-4 ">
-          <h1 class="font-bold md:text-6xl text-[#060C3C] mb-14">
+          <h1 class="font-bold md:text-6xl text-[#060C3C] md:mb-14 mb-7">
             Our Philosophy          </h1>
           <h2>
             There’s a gap between the innovation and agility that African startups embody,

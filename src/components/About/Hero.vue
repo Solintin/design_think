@@ -3,7 +3,7 @@
   <div class="max-w-[1440px] md:px-8 px-4 container mx-auto">
     <div class="md:pt-[55px] md:pb-[300px] bg_hero">
       <div class="max-w-[850px] mx-auto animate__animated animate__fadeInDown">
-        <h1 class="font-bold text-6xl text-[#060C3C] text-center">
+        <h1 class="font-bold font-bold lg:text-6xl text-3xl text-center md:text-left text-[#060C3C]">
           Our mission is to transform the culture of work in Africa
         </h1>
       </div>
@@ -38,7 +38,7 @@
         </div>
       </div>
     </div>
-    <div class="max-w-[920px] mx-auto text-2xl md:py-24 py-10">
+    <div class="max-w-[920px] mx-auto text-base md:text-2xl md:py-24 py-10">
       <h2> DesignThink is a human resources consulting and advisory firm that provides
       integrated and strategic services touching on all points of an employee lifecycle.
       We work with innovative companies operating in Africa to build high-performing teams
