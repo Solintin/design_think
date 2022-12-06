@@ -26,11 +26,12 @@
           from hire to retire, and everything in between.
         </div>
         <div class="md:justify-start justify-center flex space-x-4">
-          <button
+          <a
+          href="/services#work-with-us"
             class="bg-dt_core text-white px-3 md:px-4 py-2 md:py-3 md:text-base text-xs font-medium button rounded-md"
           >
             Work with us
-          </button>
+          </a>
           <button
             class="text-[#344054] px-3 md:px-4 py-2 md:py-3 md:text-base text-xs flex justify-center items-center space-x-2 font-medium learn rounded-md"
           >
