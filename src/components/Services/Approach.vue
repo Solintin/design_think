@@ -15,7 +15,7 @@
     </div>
 
     <div class="max-w-[1440px] md:px-8 px-4 pb-20 container mx-auto relative">
-      <div class="grid grid-cols-2 gap-10 mt-20">
+      <div class="grid md:grid-cols-2 gap-10 mt-20">
         <div class="p-4 max-w-[540px] border-l-[3px] border-[#F2F4F7] space-y-4">
           <h1 class="font-bold text-xl text-[#DC8B50]">People-first</h1>
           <div class="text-sm">

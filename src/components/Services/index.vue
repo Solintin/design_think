@@ -14,7 +14,7 @@
             <span class="text-[#FF9E56]">Services</span>
           </div>
         </div>
-        <div class="my-6 text-[#667085] text-3xl leading-[42px]">
+        <div class="my-6 text-[#667085] md:text-3xl text-base text-center md:text-left md:leading-[42px]">
           DesignThink identifies and tackles challenges that impede organizational
           evolution at different stages of growth. Our dynamic solutions are responsive to
           change, designed to last, and create measurable impact within your company.
@@ -38,31 +38,31 @@
 
     <div class="bg-[#171B3F]">
       <div class="max-w-[1440px] md:px-8 px-4 container mx-auto py-10 text-white">
-        <div class="max-w-2xl italic text-5xl mt-10">
+        <div class="max-w-2xl italic text-2xl md:text-5xl md:mt-10">
           <h1>
             Our <span class="text-[#FFD4B4] mx-1"> services</span> are designed to meet
             your specific needs:
           </h1>
         </div>
 
-        <div class="border-t border-gray-400 md:mt-6">
+        <div class="container border-gray-400 mt-6 ">
           <div
             v-for="(item, idx) in services"
             :key="idx"
-            class="grid my-8 grid-cols-2 items-stretch md:gap-40 border-b border-gray-400 pt-8 pb-20"
+            class="w-full grid my-8 md:grid-cols-2 md:items-stretch md:gap-40 gap-10 border-t border-gray-400 pt-8 pb-20"
           >
             <div>
-              <div class="grid grid-cols-12 items-center gap-4">
+              <div class="flex items-center gap-4">
                 <div
                   class="col-span-1 bg-white rounded-full h-10 w-10 p-2 grid place-content-center text-black text-3xl font-bold"
                 >
-                  {{ item.tag }}
+                  <p>{{ item.tag }}</p>
                 </div>
-                <div class="col-span-11 text-3xl font-bold">{{ item.title }}</div>
+                <div class="col-span-11 text-xl md:text-3xl font-bold"> <p>{{ item.title }}</p> </div>
               </div>
             </div>
-            <div>
-              {{ item.description }}
+            <div class="">
+              <p>{{ item.description }}</p>
             </div>
           </div>
         </div>

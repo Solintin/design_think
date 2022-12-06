@@ -6,23 +6,23 @@
         <h1 class="font-bold text-3xl mb-16 text-[#060C3C] text-center">
           Our Values
         </h1>
-        <div class="grid md:grid-cols-2 gap-10 ">
-          <div class="grid grid-cols-12 gap-10 items-stretch">
+        <div class="grid md:grid-cols-2 gap-10 w-full">
+          <div class="flex gap-5 items-stretch">
             <div class="w-8 col-span-1">
-              <img src="@/assets/Svg/agility.svg" class="-mt-1" alt="" />
+              <img src="@/assets/Svg/agility.svg" class="md:-mt-1" alt="" />
             </div>
-            <div class="col-span-11">
+            <div class="col-span-11 w-full ">
               <h1 class="mb-4 font-bold">Agility</h1>
               <p>
                 We approach challenges with curiosity and an open mind, rather than dogma.
               </p>
             </div>
           </div>
-          <div class="grid grid-cols-12 gap-10 items-stretch">
+          <div class="flex gap-5 items-stretch w-full">
             <div class="w-8 col-span-1">
-              <img src="@/assets/Svg/trust.svg" class="-mt-1" alt="" />
+              <img src="@/assets/Svg/trust.svg" class="md:-mt-1" alt="" />
             </div>
-            <div class="col-span-11">
+            <div class="col-span-11 w-full ">
               <h1 class="mb-4 font-bold">Trust</h1>
               <p>
                 We respect and protect your privacy. We expect our clients to share
@@ -31,11 +31,11 @@
               </p>
             </div>
           </div>
-          <div class="grid grid-cols-12 gap-10 items-stretch">
-            <div class="w-8 col-span-1">
-              <img src="@/assets/Svg/global.svg" class="-mt-1" alt="" />
+          <div class="flex gap-5 items-stretch w-full">
+            <div class="w-8 col-span-1 ">
+              <img src="@/assets/Svg/global.svg" class="md:-mt-1" alt="" />
             </div>
-            <div class="col-span-11">
+            <div class="col-span-11 w-full">
               <h1 class="mb-4 font-bold">Globally-minded</h1>
               <p>
                 We move the needle by challenging the status quo to implement effective
@@ -44,11 +44,11 @@
               </p>
             </div>
           </div>
-          <div class="grid grid-cols-12 gap-10 items-stretch">
+          <div class="flex gap-5 items-stretch w-full">
             <div class="w-8 col-span-1">
-              <img src="@/assets/Svg/empathy.svg" class="-mt-1" alt="" />
+              <img src="@/assets/Svg/empathy.svg" class="md:-mt-1" alt="" />
             </div>
-            <div class="col-span-11">
+            <div class="col-span-11 w-full ">
               <h1 class="mb-4 font-bold">Empathy</h1>
               <p>
                 We believe in empathetic leadership that puts people first because we

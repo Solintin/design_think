@@ -1,7 +1,11 @@
 <!-- eslint-disable -->
 <template>
   <div class="bg pt-[48px]">
-    <div class="max-w-[1440px] md:px-8 px-4 container mx-auto text-[#D6DDEB]">
+    <div class="max-w-[1440px] relative md:px-8 px-4 container overflow-y-hidden mx-auto text-[#D6DDEB]">
+      <div class="absolute md:block hidden right-8 -top-40 z-1">
+      <img src="@/assets/Svg/footer_union.svg" class="h-[450px]" alt="" />
+    </div>
+      
       <div class="grid md:grid-cols-12 gap-20">
         <div class="col-span-4 space-y-6">
           <a href="#"> <img src="@/assets/Svg/logo_footer.svg" alt="" /> </a>
@@ -15,10 +19,10 @@
           <div
             class="flex md:flex-row flex-col md:space-x-6 md:space-y-0 space-y-4 text-sm"
           >
-            <a href="#">About</a>
-            <a href="#">Our Services</a>
-            <a href="#">Work with us</a>
-            <a href="#">Privacy Policy</a>
+            <router-link to="/about">About</router-link>
+            <router-link to="/services">Our Services</router-link>
+            <router-link to="/services/#work-with-us">Work with us</router-link>
+            <router-link to="/#">Privacy Policy</router-link>
           </div>
         </div>
       </div>

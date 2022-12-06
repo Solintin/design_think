@@ -8,19 +8,19 @@
           <div class="mt-8 space-y-4">
             <p class="text-[#333333]">Want to learn more about how we can help your company? Let’s talk.</p>
             <div class="mt-10 flex space-x-4">
-              <div class="w-8/12"><input type="text" class="form w-full p-3" /></div>
+              <div class="w-8/12"><input type="text" class="form w-full p-2 md:p-3" /></div>
               <div class="w-4/12">
                 <button
-                  class="bg-dt_core text-white px-3 md:px-4 py-2 md:py-3 md:text-base text-xs font-medium button rounded-md"
+                  class="bg-dt_core text-white px-3 md:px-4 py-3 md:py-3 md:text-base text-xs font-medium button rounded-md"
                 >
                   Send message
                 </button>
               </div>
             </div>
-            <div class="md:text-sm text-[8px] text-gray-500">We care about your data in our  <a class="mx-1 underline" href="#">privacy policy</a> </div>
+            <div class="md:text-sm text-[12px] text-gray-500">We care about your data in our  <a class="mx-1 underline" href="#">privacy policy</a> </div>
           </div>
         </div>
-        <div class="space-y-4 flex flex-col">
+        <div class="space-y-4 flex flex-col md:px-0 px-4">
           <div class="flex space-x-3 transform md:translate-x-20">
             <div class="py-4 px-8 bg-[#FFA564] rounded-xl w-6/12 flex flex-col space-y-6">
               <img src="@/assets/Svg/settings.svg" class="w-10 h-10" alt="" />
