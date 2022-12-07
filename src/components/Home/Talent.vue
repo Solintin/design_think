@@ -13,7 +13,7 @@
             candidates for technical and non-technical roles at every stage of
             growth.
           </p>
-          <div class="mt-10">
+          <!-- <div class="mt-10">
             <div class="flex space-x-4">
               <img src="@/assets/Svg/check.svg" alt="" />
               <p>
@@ -26,7 +26,7 @@
                 Close more talents with single-page talent management service
               </p>
             </div>
-          </div>
+          </div> -->
         </div>
       </div>
     </div>
