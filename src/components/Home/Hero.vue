@@ -3,13 +3,13 @@
   <div class="max-w-[1440px] md:px-8 px-4 container mx-auto">
     <div class="grid md:grid-cols-2 md:gap-40 gap-10 mt-14">
       <div class="space-y-8 animate__animated animate__fadeInLeft">
-        <div
+        <router-link to="/services"
           class="flex items-center mx-auto md:mx-0 space-x-1 pill md:text-base text-xs py-1 px-2 max-w-max text-[#6941C6]  font-medium"
         >
           <div class="bg-white py-1 px-2 rounded-xl">New</div>
           <h1 class="mr-1">Explore our unique 360 approach</h1>
           <img src="@/assets/Svg/arrow.svg" alt="" />
-        </div>
+        </router-link>
         <div
           class="md:max-w-xl md:mx-0 mx-auto font-bold lg:text-6xl text-3xl text-center md:text-left space-y-3"
         >
@@ -32,12 +32,12 @@
           >
             Work with us
           </a>
-          <button
+          <router-link to="/about"
             class="text-[#344054] px-3 md:px-4 py-2 md:py-3 md:text-base text-xs flex justify-center items-center space-x-2 font-medium learn rounded-md"
           >
             <img src="@/assets/Svg/play.svg" alt="play" />
             <span>Learn More</span>
-          </button>
+          </router-link>
         </div>
       </div>
 
