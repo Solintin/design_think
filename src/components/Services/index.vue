@@ -26,12 +26,12 @@
           >
             Work with us
           </a>
-          <button
+          <router-link  to="/about"
             class="text-[#344054] px-3 md:px-4 py-2 md:py-3 md:text-base text-xs flex justify-center items-center space-x-2 font-medium learn rounded-md"
           >
             <img src="@/assets/Svg/play.svg" alt="play" />
             <span>Learn More</span>
-          </button>
+          </router-link>
         </div>
       </div>
     </div>
