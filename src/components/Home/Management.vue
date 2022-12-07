@@ -11,7 +11,7 @@
             We create strategies for developing and promoting a strong internal
             organizational culture leading to inspired and engaged teams.
           </p>
-          <div class="mt-10">
+          <!-- <div class="mt-10">
             <div class="flex space-x-4">
               <img src="@/assets/Svg/check.svg" alt="" />
               <p>
@@ -24,7 +24,7 @@
                 Close more talents with single-page talent management service
               </p>
             </div>
-          </div>
+          </div> -->
         </div>
         <div class="md:order-last order-first">
           <img src="@/assets/Svg/talent_management.png" alt="" />

@@ -14,7 +14,7 @@
             We develop compensation and benefits packages that reward existing
             employees and attract future employees.
           </p>
-          <div class="mt-10">
+          <!-- <div class="mt-10">
             <div class="flex space-x-4">
               <img src="@/assets/Svg/check.svg" alt="" />
               <p>
@@ -27,7 +27,7 @@
                 Close more talents with single-page talent management service
               </p>
             </div>
-          </div>
+          </div> -->
         </div>
       </div>
     </div>
