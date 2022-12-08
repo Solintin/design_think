@@ -21,7 +21,7 @@
 
       <a
         href="/services#work-with-us"
-        class="bg-dt_core text-white md:px-4 px-3 py-2 md:text-base text-xs font-medium button rounded-md"
+        class="bg-dt_core text-white md:px-4 px-3 py-2 md:text-base text-xs font-medium button rounded-md flex justify-center items-center"
       >
         Work with us
       </a>
@@ -31,7 +31,13 @@
 <!-- eslint-disable -->
 
 <script>
-export default {};
+export default {
+  methods:{
+    action(){
+    
+    }
+  }
+};
 </script>
 
 <style>

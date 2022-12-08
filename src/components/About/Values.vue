@@ -3,7 +3,7 @@
   <div class="bg-[#EFEBFF] py-24 md:px-10 px-4">
     <div class="max-w-[1440px] md:px-8  container mx-auto">
       <div class="rounded-[20px] md:px-[100px] px-4 bg-white py-10">
-        <h1 class="font-bold text-3xl mb-16 text-[#060C3C] text-center">
+        <h1 class="font-bold md:text-6xl text-center text-[#060C3C] mb-14">
           Our Values
         </h1>
         <div class="grid md:grid-cols-2 gap-10 w-full">

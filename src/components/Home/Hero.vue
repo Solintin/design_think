@@ -28,7 +28,7 @@
         <div class="md:justify-start justify-center flex space-x-4">
           <a
           href="/services#work-with-us"
-            class="bg-dt_core text-white px-3 md:px-4 py-2 md:py-3 md:text-base text-xs font-medium button rounded-md"
+          class="bg-dt_core text-white md:px-4 px-3 py-2 md:text-base text-xs font-medium button rounded-md flex justify-center items-center"
           >
             Work with us
           </a>

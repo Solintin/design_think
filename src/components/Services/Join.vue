@@ -13,7 +13,7 @@
                 <button
                   class="bg-dt_core text-white px-3 md:px-4 py-3 md:py-3 md:text-base text-xs font-medium button rounded-md"
                 >
-                  Send message
+                  Subscribe
                 </button>
               </div>
             </div>
