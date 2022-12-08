@@ -1,10 +1,12 @@
 <!-- eslint-disable -->
 <template>
-  <div class="relative">
-    <div class="absolute md:block hidden right-8 -mt-[144px] z-1">
-      <img src="@/assets/Svg/horizontal_union.svg" class="h-[700px]" alt="" />
+  <div class="">
+    <div class="max-w-[1440px] mx-auto relative">
+      <div class="absolute md:block hidden right-8 -mt-[144px] z-1">
+        <img src="@/assets/Svg/horizontal_union.svg" class="h-[700px]" alt="" />
+      </div>
     </div>
-    <div class="max-w-[1440px] md:px-8 px-4 container mx-auto relative">
+    <div class="max-w-[1440px] md:px-8 px-4 container mx-auto">
       <div class="max-w-5xl mt-14 pb-32">
         <div
           class="md:max-w-xl md:mx-0 mx-auto font-bold lg:text-6xl text-3xl text-center md:text-left space-y-3"
@@ -14,19 +16,23 @@
             <span class="text-[#FF9E56]">Services</span>
           </div>
         </div>
-        <div class="my-6 text-[#667085] md:text-3xl text-base text-center md:text-left md:leading-[42px]">
-          DesignThink identifies and tackles challenges that impede organizational
-          evolution at different stages of growth. Our dynamic solutions are responsive to
-          change, designed to last, and create measurable impact within your company.
+        <div
+          class="my-6 text-[#667085] md:text-3xl text-base text-center md:text-left md:leading-[42px]"
+        >
+          DesignThink identifies and tackles challenges that impede
+          organizational evolution at different stages of growth. Our dynamic
+          solutions are responsive to change, designed to last, and create
+          measurable impact within your company.
         </div>
         <div class="md:justify-start justify-center flex space-x-4 mt-10">
           <a
             href="/services#work-with-us"
-            class="bg-dt_core text-white px-3 md:px-4 py-2 md:py-3 md:text-base text-xs font-medium button rounded-md"
+            class="bg-dt_core text-white md:px-4 px-3 py-2 md:text-base text-xs font-medium button rounded-md flex justify-center items-center"
           >
             Work with us
           </a>
-          <router-link  to="/about"
+          <router-link
+            to="/about"
             class="text-[#344054] px-3 md:px-4 py-2 md:py-3 md:text-base text-xs flex justify-center items-center space-x-2 font-medium learn rounded-md"
           >
             <img src="@/assets/Svg/play.svg" alt="play" />
@@ -37,15 +43,17 @@
     </div>
 
     <div class="bg-[#171B3F]">
-      <div class="max-w-[1440px] md:px-8 px-4 container mx-auto py-10 text-white">
+      <div
+        class="max-w-[1440px] md:px-8 px-4 container mx-auto py-10 text-white"
+      >
         <div class="max-w-2xl italic text-2xl md:text-5xl md:mt-10">
           <h1>
-            Our <span class="text-[#FFD4B4] mx-1"> services</span> are designed to meet
-            your specific needs:
+            Our <span class="text-[#FFD4B4] mx-1"> services</span> are designed
+            to meet your specific needs:
           </h1>
         </div>
 
-        <div class="container border-gray-400 mt-6 ">
+        <div class="container border-gray-400 mt-6">
           <div
             v-for="(item, idx) in services"
             :key="idx"
@@ -58,7 +66,9 @@
                 >
                   <p>{{ item.tag }}</p>
                 </div>
-                <div class="col-span-11 text-xl md:text-3xl font-bold"> <p>{{ item.title }}</p> </div>
+                <div class="col-span-11 text-xl md:text-3xl font-bold">
+                  <p>{{ item.title }}</p>
+                </div>
               </div>
             </div>
             <div class="">
