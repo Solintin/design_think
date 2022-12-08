@@ -22,21 +22,21 @@
         </div>
         <div class="space-y-4 flex flex-col md:px-0 px-4 font-semibold md:font-bold">
           <div class="flex space-x-3 transform md:translate-x-20">
-            <div class="py-4 px-8 bg-[#FFA564] rounded-xl w-6/12 flex flex-col space-y-6">
+            <div class="py-4 px-4 md:px-8 bg-[#FFA564] rounded-xl w-6/12 flex flex-col space-y-6">
               <img src="@/assets/Svg/settings.svg" class="w-10 h-10" alt="" />
               <h1 class="text-white ">Efficiency</h1>
             </div>
-            <div class="py-4 px-8 bg-[#A57FE9] rounded-xl w-6/12 flex flex-col space-y-6">
+            <div class="py-4 px-4 md:px-8 bg-[#A57FE9] rounded-xl w-6/12 flex flex-col space-y-6">
               <img src="@/assets/Svg/mark.svg" class="w-10 h-10" alt="" />
               <h1 class="text-white ">Accountability </h1>
             </div>
           </div>
           <div class="flex space-x-3 transform md:-translate-x-20">
-            <div class="py-4 px-8 bg-[#44BD57] rounded-xl w-6/12 flex flex-col space-y-6">
+            <div class="py-4 px-4 md:px-8 bg-[#44BD57] rounded-xl w-6/12 flex flex-col space-y-6">
               <img src="@/assets/Svg/commitment.svg" class="w-10 h-10" alt="" />
               <h1 class="text-white ">Commitment</h1>
             </div>
-            <div class="py-4 px-8 bg-[#4962E6] rounded-xl w-6/12 flex flex-col space-y-6">
+            <div class="py-4 px-4 md:px-8 bg-[#4962E6] rounded-xl w-6/12 flex flex-col space-y-6">
               <img src="@/assets/Svg/team.svg" class="w-10 h-10" alt="" />
               <h1 class="text-white ">Team Work</h1>
             </div>
