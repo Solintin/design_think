@@ -57,23 +57,8 @@
           <div
             v-for="(item, idx) in services"
             :key="idx"
-            class="w-full grid my-8 md:grid-cols-2 md:items-stretch md:gap-40 gap-10 border-t border-gray-400 pt-8 pb-20"
           >
-            <div>
-              <div class="flex items-center gap-4">
-                <div
-                  class="col-span-1 bg-white rounded-full h-10 w-10 p-2 grid place-content-center text-black text-3xl font-bold"
-                >
-                  <p>{{ item.tag }}</p>
-                </div>
-                <div class="col-span-11 text-xl md:text-3xl font-bold">
-                  <p>{{ item.title }}</p>
-                </div>
-              </div>
-            </div>
-            <div class="">
-              <p>{{ item.description }}</p>
-            </div>
+            <accordion :item="item" />
           </div>
         </div>
       </div>
@@ -83,7 +68,9 @@
 <!-- eslint-disable -->
 
 <script>
+import accordion from "./accordion.vue";
 export default {
+  components: { accordion },
   name: "Services",
   data() {
     return {
