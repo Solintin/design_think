@@ -7,8 +7,7 @@
           <h1 class="font-semibold text-3xl md:text-5xl">Work with Us</h1>
           <div class="mt-8 space-y-4">
             <p class="text-[#333333]">
-              Want to learn more about how we can help your company? Let’s talk.
-            </p>
+              Interested in working with us? Leave your email address below and we'll be in touch!            </p>
 
             <mailchimp-subscribe
               url="https://designthinkadvisory.us21.list-manage.com/subscribe/post"
