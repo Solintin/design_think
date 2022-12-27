@@ -10,28 +10,49 @@
               Want to learn more about how we can help your company? Let’s talk.
             </p>
 
-            <div class="mt-10 flex space-x-4">
-              <div class="w-8/12">
-                <input v-model="email" type="text" class="form w-full p-2 md:p-3" />
-              </div>
-              <div class="w-4/12">
-                <button
-                  @click="subscribe"
-                  class="bg-dt_core text-white px-3 md:px-4 py-3 md:py-3 md:text-base text-xs font-medium button rounded-md"
-                >
-                  <span v-if="loading">Loading</span>
-                  <span v-else-if="success">Sent!</span>
-                  <span v-else>Subscribe</span>
-                </button>
-              </div>
-            </div>
+            <mailchimp-subscribe
+              url="https://designthinkadvisory.us21.list-manage.com/subscribe/post"
+              user-id="be1c36c394d546d206914f0c0"
+              list-id="f46fa24a31"
+              @error="onError"
+              @success="onSuccess"
+            >
+              <template v-slot="{ subscribe, setEmail, loading }">
+                <form @submit.prevent="subscribe">
+                  <div class="mt-10 flex space-x-4">
+                    <div class="w-8/12">
+                      <input
+                        @input="setEmail($event.target.value)"
+                        type="email"
+                        :value="loading ? '' : ''"
+                        class="form w-full p-2 md:p-3"
+                      />
+                    </div>
+                    <div class="w-4/12">
+                      <button
+                        :disabled="loading"
+                        type="submit"
+                        class="bg-dt_core text-white px-3 md:px-4 py-3 md:py-3 md:text-base text-xs font-medium button rounded-md"
+                      >
+                        <!-- <span v-if="success">Loading</span> -->
+                        <span v-if="loading">Sent!</span>
+                        <span v-else>Subscribe</span>
+                      </button>
+                    </div>
+                  </div>
+                  <!-- <div v-if="error">{{ error }}</div> -->
+                </form>
+              </template>
+            </mailchimp-subscribe>
             <div class="md:text-sm text-[12px] text-gray-500">
               We care about your data in our
               <a class="mx-1 underline" href="#">privacy policy</a>
             </div>
           </div>
         </div>
-        <div class="space-y-4 flex flex-col md:px-0 px-4 font-semibold md:font-bold">
+        <div
+          class="space-y-4 flex flex-col md:px-0 px-4 font-semibold md:font-bold"
+        >
           <div class="flex space-x-3 transform md:translate-x-20">
             <div
               class="py-4 px-4 md:px-8 bg-[#FFA564] rounded-xl w-6/12 flex flex-col space-y-6"
@@ -68,33 +89,20 @@
 <!-- eslint-disable -->
 
 <script>
-import axios from "axios";
+import MailchimpSubscribe from "vue-mailchimp-subscribe";
 export default {
+  components: {
+    MailchimpSubscribe,
+  },
   data() {
-    return {
-      email: "",
-      loading: false,
-      success: false,
-      error: "",
-    };
+    return {};
   },
   methods: {
-    subscribe() {
-      this.loading = true;
-      axios
-        .post(
-          `https://designthinkadvisory.us21.list-manage.com/subscribe/post?u=be1c36c394d546d206914f0c0&id=f46fa24a31&EMAIL=${this.email}`
-        )
-        .then((res) => {
-          console.log(res);
-          this.loading = false;
-          this.success = true;
-          this.email = "";
-        })
-        .catch((err) => {
-          console.log(err);
-          this.loading = false;
-        });
+    onSuccess(info) {
+      console.log(info);
+    },
+    onError(info) {
+      console.log(info);
     },
   },
 };
